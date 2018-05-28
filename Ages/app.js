@@ -1,6 +1,7 @@
 /* se crea una web que pida, por medio de un prompt la edad de una persona en años*/
 /* se declara la const age = al prompt para guardar la data */
-const age = prompt("¿Cuál es tu edad?");
+/* se utiliza parseFloat para convertir las string a number enteros o decimales */
+const age = parseFloat(prompt("¿Cuál es tu edad?"));
 /** primera condicion age< 1 para que arroje mensaje de error */  
 
 if (age<1){
@@ -10,7 +11,7 @@ else if (age%1 !=0){
     alert("Ingresa un Numero entero");
     }
 /** mensaje de error si se ingresa un decimal */   
- 
+
     else if (age>21){
     alert("Wow eres todo un adulto!!");
     }
