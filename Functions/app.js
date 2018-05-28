@@ -5,3 +5,5 @@ const add = function (numero1,numero2){
 
     return Numero1 + Numero2
 }
+/* realizo document.write para verificar funcion add en pantalla */
+/*document.write(add(1,5));*/
