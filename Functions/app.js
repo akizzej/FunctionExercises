@@ -20,4 +20,4 @@ const multiply = function (argument1,argument2){
 
 /*procedo a resolver 36325 * (9824 + 777) hago document.write para imprimir resultado en web*/
 
-document.write (multiply(36325,(add(9824,777))));
+document.write ("El resultado de la operación matemática es "+ multiply(36325,(add(9824,777))));
