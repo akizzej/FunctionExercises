@@ -14,6 +14,8 @@ const add = function (numero1,numero2){
     let Numero2 = numero2;
 
     return Numero1 * Numero2
+}
 /* realizo document.write para verificar funcion multiply en pantalla */
 /*document.write(multiply(2,5));*/
-    
+
+/*procedo a resolver 36325 * (9824 + 777) hago document.write para imprimir resultado en web*/
